@@ -15,18 +15,19 @@ const Header = () => {
                     position: 'absolute',
                     width: '6.5rem',
                     height: '70%',
-                    backgroundColor: '#3c4c55dd',
+                    backgroundColor: '#28292add',
                     opacity: '0',
                     zIndex: '-1',
                     transition: 'transform 0.12s, opacity 0.3s ease-in',
                     top: '15%',
                     left: '0'
                 });
+                
             } else {
                 setIndicatorStyle({
                     position: 'absolute',
                     height: '70%',
-                    backgroundColor: '#3c4c55dd',
+                    backgroundColor: '#28292add',
                     opacity: '0',
                     zIndex: '-1',
                     transition: 'transform 0.12s, opacity 0.3s ease-in',
