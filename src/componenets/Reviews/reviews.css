@@ -3,16 +3,16 @@
     margin: auto;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-    background-color: #292929; /* Dark background color */
-    color: #f9f9f9; /* Light text color */
+    background-color: #292929;
+    color: #f9f9f9;
 }
 
 .review-card {
-    background-color: #1e1e1e; /* Dark card background color */
+    background-color: #1e1e1e;
     margin: 10px 0;
     padding: 20px;
-    border-radius: 10px; /* Slightly increased border radius */
-    box-shadow: 0px 0px 10px rgba(255,255,255,0.1); /* Light shadow */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255,255,255,0.1);
     transition: transform 0.3s ease-in-out;
 }
 
@@ -20,20 +20,6 @@
     color: rgb(106, 179, 231);
     margin-top: 10px;
 }
-
-/* Add a subtle border to the review cards */
-.review-card::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    border-radius: 10px;
-    border: 1px solid rgba(255,255,255,0.1);
-    pointer-events: none; /* Ensures the border doesn't interfere with hover */
-}
-
 
 
 
