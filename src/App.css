@@ -260,13 +260,13 @@ textarea{
 }
 @media screen and (max-width: 25rem){
     #mainbody #text-body h1{
-        font-size: 7.5vw;
+        font-size: 7.5vw !important;
     }
     #mainbody #text-body h2{
-        font-size: 4vw;
+        font-size: 4vw !important;
     }
     #mainbody #text-body{
-        font-size: 3.3vw !important;
+        font-size: 3.6vw !important;
     }
     .card .feature-description{
         font-size: 3vw !important;
