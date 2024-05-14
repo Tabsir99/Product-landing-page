@@ -1,0 +1,24 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-margin-top: 5rem;
+}
+
+html, body, #root{
+  scroll-behavior: smooth;
+  
+}
+
+#root{
+  height: 100vh;
+  width: 100vw;
+
+  background: linear-gradient(90deg,rgb(5,5,5), rgb(20, 20, 20), rgb(25,25,25),rgb(30,30,30), rgb(25,25,25), rgb(20, 20, 20),rgb(5,5,5));
+  padding-top: 2rem;
+  overflow-y: scroll;
+}

@@ -1,0 +1,75 @@
+.footer {
+    background-color: #242424;
+    color: #ffffff;
+    padding: 1.5rem 0 0;
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 40rem;
+    margin: 3rem auto 0;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    max-width: 30rem;
+    font-size: 1.1rem;
+    flex-direction: column;
+    align-items: center;
+}
+.footer h2 {
+    color: #ffffff;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.footer .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 0.3rem;
+}
+
+.footer .social-icons li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer .social-icons li a {
+    color: #ffffff;
+    transition: 0.3s ease;
+    font-size: 2rem;
+}
+
+
+.footer #form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer #form input[type="email"] {
+    border: none;
+    padding: 10px;
+    width: 75%;
+    margin-right: 10px;
+    border-radius: 5px;
+    color: black
+}
+
+.footer #form button {
+    border: none;
+    padding: 10px 20px;
+    background-color: #1abc9c;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    margin-left: 1rem
+}

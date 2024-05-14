@@ -1,0 +1,275 @@
+#mainbody{
+    background: linear-gradient(180deg,rgb(5,5,5), rgb(20, 20, 20), rgb(20,20,20),rgb(25,25,25), rgb(30,30,30), rgb(35, 35, 35),rgb(40,40,40));
+   
+}
+
+.h1-font-size{
+    font-size: 2rem;;
+    
+}
+
+#mainbody button{
+    transition: 0.3s;
+}
+@media (pointer: fine) or (hover: hover){
+
+    
+
+.footer form button:hover {
+    background-color: #16a085;
+    transform: scale(1.1);
+}
+
+.footer .social-icons li a:hover {
+    color: #14b2ce;
+}
+
+    #mainbody a:first-of-type button:hover, #mainbody a:first-of-type button:focus{
+        background-color: rgb(100,0,0);
+        transform: scale(1.05);
+    }
+
+    #mainbody a:last-of-type button:hover, #mainbody a:last-of-type button:focus{
+        background-color: rgb(0,100,0);
+        transform: scale(1.05);
+    }
+
+
+    .review-card:hover, .review-card:focus {
+        transform: scale(1.02);
+        box-shadow: 0px 0px 15px rgba(255,255,255,0.2); /* Increased shadow on hover */
+    }
+
+    .submit-button:hover, .submit-button:focus {
+        background-color: grey;
+        transform: scale(1.05);
+    }
+
+
+    .specification:hover, .specification:focus{
+        transform: scale(1.03);
+        cursor: text;
+    }
+
+    
+
+}
+
+.submit-button:active {
+    background-color: grey;
+    transform: scale(0.92);
+}
+
+
+#mainbody a:first-of-type button:active{
+    background-color: rgb(100,0,0);
+    transform: scale(0.92);
+}
+
+#mainbody a:last-of-type button:active{
+    background-color: rgb(0,100,0);
+    transform: scale(0.92);
+}
+
+
+.card:hover::before,
+.card:hover::after,
+.card:hover .animate3 {
+    display: block;
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 8rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    transform-origin: top;
+    z-index: -1;
+    background-color: cyan;
+}
+
+.animate:hover{
+    transform: scale(1.03);
+}
+
+.card:hover::before {
+    animation: border-animation-before 5s linear infinite;
+}
+
+.card:hover::after {
+    animation: border-animation-after 5s linear infinite;
+}
+
+.card:hover .animate3 {
+    animation: border-animation-3 5s linear infinite;
+}
+
+
+
+.star:active{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 63rem) {
+    
+    #mainbody{
+     flex-wrap: wrap;
+     padding: unset;
+     justify-content: center;
+     max-width: 50rem;
+    }
+
+    #mainbody h1, #mainbody h2{
+        display: block;
+        order: 0;
+        gap: 0;
+        text-align: center;
+    }
+    #mainbody h1{
+        font-size: 2rem;
+    }
+   #mainbody #text-body{
+    font-size: 0.9rem;
+    max-width: 100%;
+    padding: 2rem;
+    text-align: left;
+   }
+
+   #mainbody .button{
+    max-width: unset;
+    justify-content: center;
+   }
+
+   #mainbody #text-body p{
+    max-width: unset;
+   }
+
+   #mainbody .main-image{
+    min-width: 0;
+    width: 80vw;
+    max-width: 45rem;
+   }
+}
+
+@media screen and (max-width: 46rem){
+    
+    .features{
+        grid-template-columns: repeat(2, minmax(15rem,1fr)) !important;
+    }
+
+}
+
+@media screen and (max-width: 35rem){
+
+.card:hover::before,
+.card:hover::after,
+.card:hover .animate3 {
+
+    width: 5rem !important;
+
+}
+
+
+    .spec-details li{
+        font-size: 16px !important;
+    }
+    .footer{
+        padding: 2rem !important;
+    }
+    .container{
+        font-size: 16px !important
+    }
+    .footer h2{
+        font-size: 1.2rem !important
+    }
+    .features{
+        grid-template-columns: repeat(2, minmax(8rem, 1fr)) !important;
+    }
+
+    #mainbody #text-body{
+        padding: 1rem !important;
+    }
+    #mainbody {
+        margin: 0 auto !important
+    }
+    .card{
+        font-size: 2.7vw !important;
+        height: 46vw !important;
+        gap: 0.2rem !important;
+    }
+    .card .logo{
+        font-size: 7vw !important;
+        flex: 0 0 0 !important;
+        padding: 0 !important
+    }
+
+    .card .feature-description{
+        text-align: left;
+        padding: 0;
+        padding-left: 0.5rem
+    }
+ #links{
+        max-width: unset;
+        font-size: 3vw;
+        gap: 0 !important;
+        align-items: center;
+        height: 100%;
+        padding: 0 !important;
+        justify-content: end !important;
+    }
+
+    #links li a{
+        width: 21vw !important;
+        margin: 0 !important;
+    }
+    
+header{
+        width: 100vw !important;
+        justify-content: space-between !important;
+        padding: 0 0.3rem !important;
+        gap: 1.5rem !important;
+        height: 3rem !important;
+        left: 0 !important;
+        transform: unset !important;
+    }
+
+
+}
+@media screen and (max-width: 25rem){
+    
+    #mainbody #text-body h1{
+        font-size: 8vw;
+    }
+    .card .feature-description{
+        font-size: 3vw !important;
+    }
+}
+
+
+#links li{
+    margin: 0 !important;
+    flex-grow: 1;
+    height: 70%;
+}
+#links li a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+    width: 6.5rem;
+}
+
+#links {
+    height: 100%;
+    align-items: center;
+    gap: 0;
+}
