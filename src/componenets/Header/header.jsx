@@ -68,7 +68,7 @@ const Header = () => {
     };
 
     return (
-        <header className='top-0 fixed w-[95%] h-16 flex justify-between items-center border-b-2 border-indigo-950 left-[50%] translate-x-[-50%] px-12 bg-[#120f0f] z-50 rounded-lg'>
+        <header className='top-0 fixed w-[95%] h-16 flex justify-between items-center border-b-2 border-indigo-950 left-[50%] translate-x-[-50%] px-12 bg-[#120f0f] z-50 rounded-b-lg'>
             <span id="logo" className="text-white">Logo</span>
 
             <ul id="links" className="relative flex-grow max-w-[25rem] flex list-none">
