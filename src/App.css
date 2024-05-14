@@ -169,6 +169,10 @@
 
 @media screen and (max-width: 35rem){
 
+    .review-section {
+        width: 100% !important;
+    }
+
 .card:hover::before,
 .card:hover::after,
 .card:hover .animate3 {
@@ -241,12 +245,21 @@ header{
         transform: unset !important;
     }
 
+    input[type='text'],
+textarea{
+    width: 16rem !important
+}
+
+
+
 
 }
 @media screen and (max-width: 25rem){
-    
     #mainbody #text-body h1{
-        font-size: 8vw;
+        font-size: 7.8vw;
+    }
+    #mainbody #text-body h2{
+        font-size: 4vw;
     }
     .card .feature-description{
         font-size: 3vw !important;

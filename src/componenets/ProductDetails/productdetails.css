@@ -47,7 +47,7 @@
 }
 
 #card1 .logo, #card1 .feature-title{
-    color: rgb(18, 124, 18)  
+    color: rgb(7, 112, 40)  
 }
 
 
@@ -57,7 +57,7 @@
 }
 
 #card3 .logo, #card3 .feature-title{
-    color: rgb(20, 122, 156) 
+    color: rgb(1, 99, 132) 
 }
 
 
@@ -75,32 +75,34 @@
 
 
 #card6 .logo, #card6 .feature-title{
-    color: rgb(50, 48, 48)
+    color: rgb(34, 31, 31)
 }
 
+
+
+
 #card1 {
-    background-color: #79a57d;
+    background-color: #8ed894;
 }
 
 #card2 {
-    background-color: #998b5f;
+    background-color: #c3b178;
 }
 
 #card3 {
-    background-color: #7cb0c8;
+    background-color: #a0ddfa;
 }
 
 #card4 {
-    background-color: #5f5d5d;
-    color: white;
+    background-color: #8d8888;
 }
 
 #card5 {
-    background-color: #8b6974;
+    background-color: #d5a5b4;
 }
 
 #card6 {
-    background-color: grey
+    background-color: rgb(197, 204, 244)
 }
 
 

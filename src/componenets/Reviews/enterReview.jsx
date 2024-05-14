@@ -5,7 +5,7 @@ const ReviewForm = ({ handleSubmit, name, review, stars, handleNameChange, handl
 
   return (
 
-      <form onSubmit={handleSubmit} className='review-form-container'>
+      <form onSubmit={handleSubmit} className='review-form-container' name="review-form">
 
         <label className="input-label">
           Name:

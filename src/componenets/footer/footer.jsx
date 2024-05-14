@@ -13,12 +13,11 @@ const Footer = () => {
                 <p>Phone:<span className='font-bold'>+1 123-456-7890</span> </p>
             </div>
             <div className="col-md-4">
-                <h4> <a target='_blank' href='https://portfolio-tabsir.vercel.app' className=' text-green-500 font-bold' >Follow Us</a></h4>
+                <h3> <a target='_blank' href='https://portfolio-tabsir.vercel.app' className=' text-green-500 font-bold' >Follow Us</a></h3>
                 <ul className="social-icons">
-                     <li><a href="#"><FontAwesomeIcon icon={faFacebook} /></a></li>
-                     <li><a href="#"><FontAwesomeIcon icon={faTwitter} /></a></li>
-                     <li><a href="#"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                     <li><a href="#"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+                     <li><a href="#"><FontAwesomeIcon icon={faFacebook} />Facebook</a></li>
+                     <li><a href="#"><FontAwesomeIcon icon={faTwitter} />Twitter</a></li>
+                     <li><a href="#"><FontAwesomeIcon icon={faInstagram} />Instagram</a></li>
                  </ul>
             </div>
             <div className="col-md-4">

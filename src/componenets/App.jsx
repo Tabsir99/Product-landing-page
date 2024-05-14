@@ -1,29 +1,26 @@
-
+import React, { lazy, Suspense } from 'react';
 import '/src/App.css';
 
 import Header from './Header/header';
-import MainBody from './Main/mainbody';
-
-import ImageSlider from './Gallery/gallery';
-
-import Details from './ProductDetails/productDetails';
-import Review from './Reviews/review';
-import Specifications from './Specification/specifications'
-
-import Footer from './footer/footer';
+const MainBody = lazy(() => import('./Main/mainbody'));
+const ImageSlider = lazy(() => import('./Gallery/gallery'));
+const Details = lazy(() => import('./ProductDetails/productDetails'));
+const Review = lazy(() => import('./Reviews/review'));
+const Specifications = lazy(() => import('./Specification/specifications'));
+const Footer = lazy(() => import('./footer/footer'));
 
 const App = () => {
-
-
   return (
-    <>
-      <Header />
+<>
+    <Header />
+    <Suspense fallback={<div className=' w-[100vw] h-[100vh] flex justify-center items-center text-white text-[10vw]'>Loading...</div>}>
       <MainBody />
       <ImageSlider />
       <Details />
       <Specifications />
       <Review />
       <Footer />
+    </Suspense>
     </>
   );
 }

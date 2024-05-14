@@ -77,7 +77,7 @@ const Header = () => {
                 <li><a href="#review-section" className="text-white" onMouseEnter={() => { handleMouseEnter(2) }} onMouseLeave={handleMouseLeave}>Reviews</a></li>
                 <li><a href="#contact" className="text-white" onMouseEnter={() => { handleMouseEnter(3) }} onMouseLeave={handleMouseLeave}>Contact</a></li>
 
-                {indicatorStyle && <div style={indicatorStyle}></div>}
+                <li>{indicatorStyle && <div style={indicatorStyle}></div>}</li>
             </ul>
         </header>
     );

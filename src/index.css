@@ -2,6 +2,10 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+html{
+  font-size: 20px;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -11,7 +15,7 @@
 
 html, body, #root{
   scroll-behavior: smooth;
-  
+  scrollbar-width:none;
 }
 
 #root{
@@ -19,6 +23,6 @@ html, body, #root{
   width: 100vw;
 
   background: linear-gradient(90deg,rgb(5,5,5), rgb(20, 20, 20), rgb(25,25,25),rgb(30,30,30), rgb(25,25,25), rgb(20, 20, 20),rgb(5,5,5));
-  padding-top: 2rem;
+  padding-top: 3rem;
   overflow-y: scroll;
 }
