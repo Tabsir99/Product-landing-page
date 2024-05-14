@@ -10,7 +10,7 @@ const MainBody = () => {
           <h2 className="text-center font-light text-[1em] display">with Ultra-Long Battery Life</h2>
 
 
-      <div className=" mt-6 font-sans">
+      <div className=" mt-6 font-sans textContent">
           <h3> Introducing our <span className="text-green-700 font-semibold">Game-changing Hybrid watch:</span></h3>
           <p className="mt-3 font-semibold">Say goodbye to battery anxiety and durability woes!</p>
           <p className="mt-3">Stay connected and stylish with <span className='font-semibold text-yellow-500'>Ultra-Long battery life</span> and durable construction!</p>  <br /><hr />

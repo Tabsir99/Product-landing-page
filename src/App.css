@@ -242,12 +242,13 @@
 header{
         width: 100vw !important;
         justify-content: space-between !important;
-        padding: 0 1.1rem 0 0.2rem !important;
-        gap: 1.5rem !important;
+        
         height: 3rem !important;
         left: 0 !important;
         transform: unset !important;
+        padding: 0 0 0 0.4rem !important;
     }
+   
 
     input[type='text'],
 textarea{
@@ -260,13 +261,19 @@ textarea{
 }
 @media screen and (max-width: 25rem){
     #mainbody #text-body h1{
-        font-size: 70vw !important;
+        font-size: 7vw !important;
+        width: 100%;
+        padding: 0 !important
+    }
+    .textContent{
+        padding: 0 1rem;
     }
     #mainbody #text-body h2{
         font-size: 4vw !important;
     }
     #mainbody #text-body{
         font-size: 3.6vw !important;
+        padding: 0 !important;
     }
     .card .feature-description{
         font-size: 3vw !important;
